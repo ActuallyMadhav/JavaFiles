@@ -22,7 +22,7 @@ public class shoppingCart {
         qty = scanner.nextInt();
 
         total = qty * price;
-        System.out.println("Your total is : " + currency + " " + total);
+        System.out.println("Your total for " + qty + " " + item + "s is : " + currency + " " + total);
 
         scanner.close();
     }
